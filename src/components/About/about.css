@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section {
+  padding: 100px 10%;
+  background-color: #EDE7F6;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+}
+
+/* ---------- Image Section ---------- */
+.about-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #6C63FF;
+  box-shadow: 0 5px 25px rgba(108, 99, 255, 0.3);
+}
+
+/* ---------- Text Section ---------- */
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #6C63FF;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-content h3 {
+  color: #FF6584;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-content p {
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* ---------- Skills ---------- */
+.skills h4 {
+  font-size: 1.2rem;
+  color: #1A1A1A;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #6C63FF;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.skills li:hover {
+  background-color: #FF6584;
+  transform: scale(1.05);
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 80px 20px;
+  }
+
+  .skills li {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
