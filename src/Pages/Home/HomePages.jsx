@@ -6,7 +6,7 @@ import Project from '../../components/Projects/project'
 import Contact from '../../components/Contact/contact'
 import Skills from '../../components/Skills/Skills'
 import Navbar from '../../components/Navbar/navbar'
-import Home from '../../components/Home/Home'
+import Home from '../../components/Home/home'
 
 
 const HomePages = () => {
