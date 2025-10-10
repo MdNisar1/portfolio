@@ -5,8 +5,8 @@ import AboutPages from "./Pages/About/AboutPages";
 import ContactPages from "./Pages/Contact/ContactPages";
 import EducationPages from "./Pages/Education/EducationPages";
 import ProjectPages from "./Pages/Project/ProjectPages";
-import Navbar from "./components/navbar/navbar";
 import SkillsPages from "./Pages/Skills/SkillsPages";
+import Navbar from "./components/Navbar/navbar";
 
 
 
