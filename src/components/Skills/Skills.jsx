@@ -5,7 +5,7 @@ import { SiJavascript, SiMongodb } from "react-icons/si";
 
 function Skills() {
   return (
-    <section className="education-section" id="education">
+    <section className="education-section" id="skills">
       <h1 className="education-title">Skills</h1>
 
       <div className="education-container">

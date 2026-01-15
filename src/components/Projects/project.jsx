@@ -47,7 +47,7 @@ function Project() {
   };
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="project">
       <div className="project-header">
         <h3>Projects</h3>
         <h1>Explore My Work</h1>

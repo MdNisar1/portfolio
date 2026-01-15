@@ -1,6 +1,6 @@
 import './about.css';
 import React from 'react';
-import profile from '../../assets/nsrpic.jpg'; // apni actual image ka path daal dena
+import profile from '../../assets/nsr.jpg'; // apni actual image ka path daal dena
 
 function About() {
   return (

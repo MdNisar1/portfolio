@@ -1,8 +1,13 @@
 import "./home.css";
-import nsrpic from "../../assets/nsrpic.jpg";
+import nsr from "../../assets/nsr.jpg";
 import React from "react";
 
 function Home() {
+
+    const openResume = () => {
+    window.open("Nisar_Resume_CV.pdf", "_blank");
+  };
+
   return (
     <section className="home-container" id="home">
       <div className="home-content">
@@ -17,14 +22,14 @@ function Home() {
         <p>Building modern, responsive, and user-friendly web interfaces.</p>
 
         <div className="home-buttons">
-          <button className="btn-primary">View Resume</button>
+          <button className="btn-primary" onClick={openResume}>View Resume</button> 
           <button className="btn-secondary">Contact Me</button>
           <button className="btn-outline">View Projects</button>
         </div>
       </div>
 
       <div className="home-image">
-        <img src={nsrpic} alt="Md Nisar" />
+        <img src={nsr} alt="Md Nisar" />
       </div>
     </section>
   );

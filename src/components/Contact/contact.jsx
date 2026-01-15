@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact (){
   return(
-    <section className="contact-section">
+    <section className="contact-section" id='contact'>
       <div className="contact-container">
         <h2 className="contact-title">📞 Contact Me</h2>
         <p className="contact-subtitle">
@@ -14,18 +14,18 @@ function Contact (){
         <div className="contact-info">
           <div className="contact-item">
             <FaEnvelope className="icon" />
-            <span>mdnisar@gmail.com</span>
+            <span>mdnisarktr62@gmail.com</span>
           </div>
 
           <div className="contact-item">
             <FaPhoneAlt className="icon" />
-            <span>+91 98765 43210</span>
+            <span>+91 6207278548</span>
           </div>
 
           <div className="contact-item">
             <FaLinkedin className="icon" />
             <a
-              href="https://www.linkedin.com/in/mdnisar"
+              href="https://www.linkedin.com/in/md-nisar-5676792b6/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,7 +36,7 @@ function Contact (){
           <div className="contact-item">
             <FaGithub className="icon" />
             <a
-              href="https://github.com/mdnisar"
+              href="https://github.com/MdNisar1"
               target="_blank"
               rel="noopener noreferrer"
             >

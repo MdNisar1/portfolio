@@ -9,13 +9,13 @@ function Footer() {
         
         <div className="footer-contact">
           <h2>Give us a call</h2>
-          <h1>+91 98765 43210</h1>
+          <h1>+91 6207278548</h1>
         </div>
 
         <div className="footer-content">
           <div className="footer-section">
-            <p>Email: contact@domain.com</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Email: mdnisarktr62.com</p>
+            <p>Phone: +91 6207278548</p>
             <p>Address: New Delhi, India</p>
           </div>
 
@@ -24,8 +24,8 @@ function Footer() {
             <div className="social-icons">
               <a href="#"><FaFacebookF /></a>
               <a href="#"><FaTwitter /></a>
-              <a href="https://www.linkedin.com/in/mdnisar" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-              <a href="https://github.com/mdnisar" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/md-nisar-5676792b6/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+              <a href="https://github.com/mdnisar1" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
