@@ -12,8 +12,8 @@ function Home() {
   return (
     <section className="home-container" id="home">
       <div className="home-content">
-        <h3>Hi, I'm <span>Md Nisar</span></h3>
-        <h1>Full Stack Developer</h1>
+        <h3>Hi, I'm <span>Md Nisar </span></h3>
+        <h1>Frontend Developer</h1>
         <p>
           I’m a Frontend Developer passionate about crafting clean and
           interactive web experiences using <strong>React.js</strong>,{" "}
