@@ -1,6 +1,7 @@
+import React from "react";
 import "./home.css";
 import nsr from "../../assets/nsr.jpg";
-import React from "react";
+
 
 function Home() {
 

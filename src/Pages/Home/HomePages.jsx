@@ -6,8 +6,8 @@ import Project from '../../components/Projects/project'
 import Contact from '../../components/Contact/contact'
 import Skills from '../../components/Skills/Skills'
 import Navbar from '../../components/Navbar/navbar.jsx'
-import Home from "../../components/Home/Home.jsx"
 import Education from '../../components/Education/education'
+import Home from '../../components/Home/Home.jsx'
 
 
 const HomePages = () => {
